@@ -1,0 +1,212 @@
+@import url("http://fonts.cdnfonts.com/css/cocogoose");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+  }
+
+  .nav-group {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 48px;
+  }
+
+  .sabre-logo {
+    width: 80%;
+    height: 50px;
+  }
+
+  .nav-links {
+    text-decoration: none;
+  }
+
+  #details-section {
+    position: relative;
+    top: 0;
+    background-image: url(../images/sabre-bg.png);
+    width: 100%;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    /* background-position: center; */
+  }
+
+  .details-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-left: 10%;
+    padding-top: 8%;
+  }
+
+  .details-text-one {
+    color: #ec5242;
+  }
+
+  .details-heading {
+    font-family: "COCOGOOSE", sans-serif;
+    padding: 20px 0;
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #ec5242;
+    width: 70%;
+  }
+
+  .details-paragraph {
+    padding: 20px;
+    border: 3.5px solid #fff;
+    background-color: #f7f7f7;
+    margin: 5px;
+    line-height: 25px;
+    width: 50%;
+  }
+
+  .details-date {
+    font-weight: 800;
+    font-size: 26px;
+    margin-top: 30px;
+  }
+
+  .details-text-two {
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 16px;
+  }
+
+  .program-section {
+    background-color: #272a31;
+    background-image: url(../images/main-bg.png);
+    color: #fff;
+    padding: 40px 0;
+  }
+
+  .main-program-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-line {
+    width: 5%;
+    height: 2px;
+    background-color: #ec5242;
+    margin-top: 14px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+  }
+
+  .program-titles {
+    font-size: 18px;
+    color: #ec5242;
+    font-weight: bold;
+    padding: 12px;
+  }
+
+  .program-texts {
+    align-self: center;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+
+  .program-proceedings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 31px;
+    padding-bottom: 31px;
+  }
+
+  .program-Presentation {
+    width: 18%;
+    background-color: #5f5f5f50;
+    padding: 3% 2%;
+    margin: 3px;
+    text-align: center;
+  }
+
+  .main-program-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-program-link a {
+    color: #fff;
+  }
+
+  .featured-speakers-section {
+    background-color: #ededed;
+    opacity: 0.9;
+    padding: 3% 8% 4% 10%;
+  }
+
+  .speaker-proceedings {
+    display: grid;
+    grid-template-columns: 40% 50%;
+    grid-column-gap: 4%;
+    grid-row-gap: 2%;
+    margin-top: 40px;
+    box-sizing: border-box;
+    /* margin: 8%; */
+  }
+
+  .speaker-Presentation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+  }
+
+  .speaker-bg-img {
+    background-image: url(../images/speakers-background.jpg);
+    background-size: 40% 40%;
+    background-repeat: no-repeat;
+    background-position-x: 0;
+    background-position-y: 0;
+  }
+
+  .speaker-bg-img img {
+    width: 135px;
+    height: 150px;
+    object-fit: cover;
+    object-position: bottom;
+    padding-left: 13%;
+    padding-top: 13%;
+  }
+
+  .speaker-content {
+    line-height: 28px;
+  }
+
+  .speaker-line {
+    width: 9%;
+    height: 3px;
+    background-color: #d3d3d3;
+    margin: 10px 0;
+  }
+
+  .description {
+    font-style: italic;
+    color: #ec5242;
+  }
+
+  .bio {
+    font-size: 14px;
+  }
+}
