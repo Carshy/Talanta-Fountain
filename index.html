@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="templates/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 </head>
 <body>
     <header>
@@ -26,10 +28,17 @@
 
         <!-- Details section -->
         <section id="details-section">
+
+            <div class="hamburger">
+                <span class="bars"></span>
+                <span class="bars"></span>
+                <span class="bars"></span>
+            </div>
+
             <div class="details-info">
                 <h1 class="details-text-one">"Hello! Sharing Heroes"</h1>
                 <h2 class="details-heading">GLOBAL SABRE INTERNATIONAL AWARDS WINNERS 2021</h2>
-                <p class="details-paragraph">The SABRE Awards — which include competitions for the Americas, EMEA, Latin America and the Asia-Pacific region — attract more than 5,500 entries from more than 60 countries, so that the winners of the Global awards are the elite of the elite, representing best practice in categories ranging from social media to social responsibility, from public affairs to employee communications.</p>
+                <p class="details-paragraph">The SABRE Awards — which include competitions for the Americas, EMEA, Latin America and the Asia-Pacific region — attract more than 5,500 entries from more than 60 countries.</p>
                 <h3 class="details-date">2022.10.10 (SAT) ~ 3(MON)</h3>
                 <h3 class="details-text-two">@ Liberty Pearl Continential Hotel Conference Hall</h3>
             </div>
@@ -45,7 +54,7 @@
 
                 <div class="program-Presentation">
                     <img src="images/presentation.png" alt="presentations">
-                    <h4 class="program-titles">Presentation</h4>
+                    <h4 class="program-titles">Lecture</h4>
                     <p class="program-texts">Listen to all speakers from various regions and learn about trends
                         in new normal business in all the world.</p>
                 </div>
@@ -75,7 +84,7 @@
                 </div>
 
             </div>
-            <div class="main-program-link"><a href="#">SEE THE WHOLE PROGRAM</a></div>
+            <div class="main-program-link"><a href="#">Join GS Summit 2022</a></div>
         </section>
 
         <!-- Featured Speakers Section -->
@@ -87,15 +96,15 @@
 
             <div class="speaker-proceedings">
 
-                <div class="speaker-Presentation">
+                <div id="speakers-presenting" class="speaker-Presentation">
                     <div class="speaker-bg-img">
                         <img src="images/oprah-photo.jpg" alt="presentations">
                     </div>
                     <div class="speaker-content">
                         <h4 class="program-titles">Oprah Winfrey</h4>
-                        <p class="description">Oprah Winfrey is an American talk show host, media executive, actress and billionaire philanthropist.</p>
+                        <p class="description">Oprah Winfrey is an American talk show host, and billionaire philanthropist.</p>
                         <div class="speaker-line"></div>
-                        <p class="bio">She's best known for being the host of her own, wildly popular program, The Oprah Winfrey Show, which aired for 25 seasons, from 1986 to 2011.</p>
+                        <p class="bio">She's best known for being the host of her own, the Oprah Winfrey Show.</p>
                     </div>
                 </div>
 
@@ -111,7 +120,7 @@
                     </div>
                 </div>
 
-                <div class="speaker-Presentation">
+                <div id="speakers-presenting" class="speaker-Presentation">
                     <div class="speaker-bg-img">
                         <img src="images/deepak-chopra.jpg" alt="presentations">
                     </div>
@@ -160,8 +169,37 @@
                 </div>
 
             </div>
+            <button class="speaker-more-btn">More <i class="fas fa-angle-down"></i></button>
         </section>
     </main>
-    <footer></footer>
+
+    <!-- The Footer Section -->
+    <footer>
+        <section class="partners-section">
+            <div class="partners-list">
+                <div class="partner-program-header">
+                    <h3>Our Partners</h3>
+                    <div class="main-line"></div>
+                </div>
+
+                <ul class="list-group-partners">
+                    <li class="list-item-partners2">Facebook</li>
+                    <li class="list-item-partners1">Amazon</li>
+                    <li class="list-item-partners2">YOKOHAMA</li>
+                    <li class="list-item-partners1">USAID</li>
+                    <li class="list-item-partners1">Samsung</li>
+                </ul>
+                
+            </div>
+
+            <div class="footer-rights">
+                <img src="images/sabre-awards-logo.jpg" alt="Footer Logo">
+                <div class="footer-infromation">
+                    <p class="footer-description">All rights reserved © 2021 Global Sabres Awards</p>
+                    <p class="footer-details">Winning a SABRE is not only huge validation, but it is a galvanizing moment for our teams<br> who take great pride in the work they do together with our clients</p>
+                </div>
+            </div>
+        </section>
+    </footer>
 </body>
 </html>
