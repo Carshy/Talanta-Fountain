@@ -82,7 +82,6 @@
     top: -100%;
     transition: top 0.3s ease;
     backdrop-filter: blur(6px);
-    /* background-color: #ec5242; */
     background-color: rgb(236 82 66 / 65%);
   }
 
