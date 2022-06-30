@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("http://fonts.cdnfonts.com/css/cocogoose");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+
+.about-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../images/about-background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  color: #585858;
+  text-align: center;
+  padding: 20px;
+  background-color: #f7f7f7;
+  line-height: 25px;
+}
+
+.about-gs {
+  font-family: "COCOGOOSE", sans-serif;
+  padding: 20px 0;
+  font-size: 1.9em;
+  font-weight: 700;
+  color: #ec5242;
+  line-height: 35px;
+}
+
+.about-gs-text {
+  padding: 16px;
+  background-color: #fff;
+  border: 2px solid #f0f0f0;
+  width: 55%;
+  margin: 5px;
+  line-height: 28px;
+}
+
+.about-gs-email {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* the logo section */
+.about-logo-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #585858;
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+  line-height: 25px;
+}
+
+.about-logo-gs {
+  font-family: "COCOGOOSE", sans-serif;
+  padding: 20px 0;
+  font-size: 1.6em;
+  font-weight: 300;
+  line-height: 35px;
+}
+
+.about-gs-logo-text {
+  padding: 16px;
+  background-color: #fff;
+  /* border: 2px solid #f0f0f0; */
+  width: 55%;
+  margin: 5px;
+  line-height: 28px;
+}
+
+.about-logo-image {
+  border: 2px solid #f0f0f0;
+}
+
+.about-logo-image img {
+  padding: 18px 0 18px 0;
+  width: 40%;
+  height: 40%;
+}
+
+.about-divide-line {
+  width: 100%;
+  height: 4px;
+  background-color: #f0f0f0;
+}
+
+.past-event-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #585858;
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+  line-height: 25px;
+}
+
+.winners-year {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+}
+
+.winners-year1 {
+  /* background-color: #585858; */
+  background-image: url(../images/sabre\ winners1.jpg);
+  /* background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 80%;
+  height: 80%; */
+  padding: 12px;
+  min-height: 200px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+  margin-top: 40px;
+  box-shadow: inset 0 0 0 2000px rgba(255, 0, 0, 0.438);
+  color: #fff;
+}
+
+.winners-year2 {
+  /* background-color: #585858; */
+  background-image: url(../images/sabre\ winners2.jpg.crdownload);
+  /* background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; */
+  padding: 12px;
+  min-height: 200px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+  margin-top: 40px;
+  box-shadow: inset 0 0 0 2000px rgba(255, 0, 0, 0.438);
+  color: #fff;
+}
