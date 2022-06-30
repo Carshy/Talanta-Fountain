@@ -26,6 +26,10 @@
     display: none;
   }
 
+  .upper-layout {
+    display: none;
+  }
+
   /* end of hidden displays */
 
   #details-section {
@@ -66,6 +70,53 @@
 
   .hamburger.active .bars:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
+  }
+
+  /* Mobile Menu for JS */
+  .nav-menu {
+    position: fixed;
+    gap: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    top: -100%;
+    transition: top 0.3s ease;
+    backdrop-filter: blur(6px);
+    /* background-color: #ec5242; */
+    background-color: rgb(236 82 66 / 65%);
+  }
+
+  .nav-menu.active {
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    flex-direction: column;
+    height: 100%;
+    padding: 1px 0 0 28px;
+  }
+
+  .nav-menu li {
+    margin: 16px 0;
+    color: white;
+  }
+
+  .nav-menu li {
+    margin: 16px 0;
+    color: white;
+    list-style-type: none;
+  }
+
+  .nav-menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 28px;
+  }
+
+  #menu-x {
+    margin-left: 83%;
+    font-size: 14px;
   }
 
   .details-info {
@@ -280,14 +331,44 @@
     display: none;
   }
 
+  .nav-mobile {
+    display: none;
+  }
+
   /* end of hidden displays */
+
+  .upper-layout {
+    width: 100%;
+    height: 30px;
+    background-color: #272a31;
+    color: #fff;
+    font-size: 14px;
+  }
+
+  .upper-group {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 15%;
+    padding-top: 0.5%;
+    gap: 16px;
+  }
+
+  .upper-items {
+    list-style-type: none;
+  }
+
+  #social-icons {
+    font-size: 14px;
+    /* padding-top: 8%; */
+  }
 
   .nav-bar {
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    height: 60px;
+    height: 80px;
     background-color: #fff;
   }
 
@@ -299,12 +380,22 @@
   }
 
   .sabre-logo {
-    width: 80%;
+    width: 92%;
     height: 50px;
   }
 
   .nav-links {
     text-decoration: none;
+    font-size: 20px;
+  }
+
+  #nav-about {
+    color: #ec5242;
+  }
+
+  #nav-border {
+    border: 6px solid #ec5242;
+    padding: 8px;
   }
 
   #details-section {
@@ -355,8 +446,8 @@
   }
 
   .details-text-two {
-    font-size: 16px;
-    font-weight: 300;
+    font-size: 18px;
+    font-weight: 400;
     margin-top: 16px;
   }
 
