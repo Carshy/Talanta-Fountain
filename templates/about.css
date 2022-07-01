@@ -119,6 +119,7 @@ body {
     flex-direction: column;
     align-items: center;
     color: #585858;
+    margin: 24px;
     text-align: center;
     background-color: #fff;
     line-height: 25px;
@@ -136,19 +137,19 @@ body {
     width: 124%;
     min-height: 200px;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     position: relative;
     box-shadow: inset 0 0 0 2000px rgb(255 0 0 / 44%);
     color: #fff;
   }
 
   .winners-year2 {
-    background-image: url(../images/sabre\ winners2.jpg.crdownload);
+    background-image: url(../images/sabreawards1.jpg);
     width: 124%;
     padding: 12px;
     min-height: 200px;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     position: relative;
     margin-top: 24px;
     box-shadow: inset 0 0 0 2000px rgb(255 0 0 / 44%);
@@ -338,7 +339,7 @@ body {
     padding: 12px;
     min-height: 200px;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     position: relative;
     margin-top: 40px;
     box-shadow: inset 0 0 0 2000px rgba(255, 0, 0, 0.438);
@@ -346,11 +347,11 @@ body {
   }
 
   .winners-year2 {
-    background-image: url(../images/sabre\ winners2.jpg.crdownload);
+    background-image: url(../images/sabreawards1.jpg);
     padding: 12px;
     min-height: 200px;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     position: relative;
     margin-top: 40px;
     box-shadow: inset 0 0 0 2000px rgba(255, 0, 0, 0.438);
