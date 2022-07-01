@@ -1,0 +1,383 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("http://fonts.cdnfonts.com/css/cocogoose");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+
+/* *********************The Desktop Version of the About Page************************************ */
+
+@media screen and (max-width: 768px) {
+  /* Hidden sections for mobile */
+
+  .about-footer-information {
+    display: none;
+  }
+
+  .nav-bar {
+    display: none;
+  }
+
+  .about-us-section {
+    position: relative;
+    top: 0;
+    background-image: url("images/about-background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: #f7f7f7;
+  }
+
+  .about-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #585858;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 8%;
+    line-height: 25px;
+  }
+
+  .about-gs-text {
+    padding: 16px;
+    background-color: #fff;
+    border: 2px solid #f0f0f0;
+    margin: 5px;
+    line-height: 28px;
+    margin-bottom: 8%;
+  }
+
+  .about-gs {
+    font-family: "COCOGOOSE", sans-serif;
+    padding: 20px 0;
+    font-size: 1.9em;
+    font-weight: 700;
+    color: #ec5242;
+    line-height: 35px;
+    padding-top: 6%;
+  }
+
+  .about-gs-email {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+  .about-logo-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #585858;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    line-height: 25px;
+  }
+
+  .about-logo-gs {
+    font-family: "COCOGOOSE", sans-serif;
+    padding: 20px 0;
+    font-size: 1.6em;
+    font-weight: 300;
+    line-height: 35px;
+  }
+
+  .about-gs-logo-text {
+    padding: 16px;
+    background-color: #fff;
+    margin: 5px;
+    line-height: 28px;
+  }
+
+  .about-logo-image {
+    border: 2px solid #f0f0f0;
+  }
+
+  .about-logo-image img {
+    padding: 18px 0 18px 0;
+    width: 40%;
+    height: 40%;
+  }
+
+  .about-divide-line {
+    width: 100%;
+    height: 2px;
+    background-color: #f0f0f0;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+
+  .past-event-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #585858;
+    margin: 24px;
+    text-align: center;
+    background-color: #fff;
+    line-height: 25px;
+  }
+
+  .winners-year {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .winners-year1 {
+    background-image: url(images/sabre\ winners1.jpg);
+    padding: 12px;
+    width: 124%;
+    min-height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    box-shadow: inset 0 0 0 2000px rgb(255 0 0 / 44%);
+    color: #fff;
+  }
+
+  .winners-year2 {
+    background-image: url(images/sabreawards1.jpg);
+    width: 124%;
+    padding: 12px;
+    min-height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 24px;
+    box-shadow: inset 0 0 0 2000px rgb(255 0 0 / 44%);
+    color: #fff;
+  }
+
+  .about-partners-list {
+    padding: 2% 0% 2% 0%;
+    background-color: #272a31;
+  }
+
+  .about-partner-program-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #8d8d8d;
+  }
+
+  .about-list-group-partners {
+    align-items: center;
+    list-style-type: none;
+    gap: 24px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-weight: 600;
+    font-size: 20px;
+    color: #8d8d8d;
+    padding: 20px 4px;
+  }
+
+  .about-list-item-partners1 {
+    font-family: "Lato", sans-serif;
+  }
+
+  .about-list-item-partners2 {
+    font-family: "COCOGOOSE", sans-serif;
+  }
+
+  .about-footer-rights {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    color: #000;
+    background-color: #fff;
+    font-size: 12px;
+  }
+
+  .about-footer-rights img {
+    width: 12%;
+    height: 5%;
+  }
+
+  .about-footer-information-mobile {
+    padding-left: 3%;
+    line-height: 26px;
+    font-size: 20px;
+    color: #585858;
+  }
+
+  .about-footer-details {
+    padding-top: 1%;
+  }
+}
+
+/* *****************************The Desktop Version of the About Page****************************** */
+
+@media screen and (min-width: 768px) {
+  /* Hidden Sections */
+
+  .about-footer-information-mobile {
+    display: none;
+  }
+
+  .about-partners-list {
+    display: none;
+  }
+
+  .about-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("images/about-background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    color: #585858;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 8%;
+    background-color: #f7f7f7;
+    line-height: 25px;
+  }
+
+  .about-gs {
+    font-family: "COCOGOOSE", sans-serif;
+    padding: 20px 0;
+    font-size: 1.9em;
+    font-weight: 700;
+    color: #ec5242;
+    line-height: 35px;
+    padding-top: 6%;
+  }
+
+  .about-gs-text {
+    padding: 16px;
+    background-color: #fff;
+    border: 2px solid #f0f0f0;
+    width: 55%;
+    margin: 5px;
+    line-height: 28px;
+  }
+
+  .about-gs-email {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+  /* the logo section */
+  .about-logo-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #585858;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    line-height: 25px;
+  }
+
+  .about-logo-gs {
+    font-family: "COCOGOOSE", sans-serif;
+    padding: 20px 0;
+    font-size: 1.6em;
+    font-weight: 300;
+    line-height: 35px;
+  }
+
+  .about-gs-logo-text {
+    padding: 16px;
+    background-color: #fff;
+    width: 55%;
+    margin: 5px;
+    line-height: 28px;
+  }
+
+  .about-logo-image {
+    border: 2px solid #f0f0f0;
+  }
+
+  .about-logo-image img {
+    padding: 18px 0 18px 0;
+    width: 40%;
+    height: 40%;
+  }
+
+  .about-divide-line {
+    width: 100%;
+    height: 2px;
+    background-color: #f0f0f0;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+
+  .past-event-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #585858;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    line-height: 25px;
+  }
+
+  .winners-year {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+  }
+
+  .winners-year1 {
+    background-image: url(images/sabre\ winners1.jpg);
+    padding: 12px;
+    min-height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 40px;
+    box-shadow: inset 0 0 0 2000px rgba(255, 0, 0, 0.438);
+    color: #fff;
+  }
+
+  .winners-year2 {
+    background-image: url(images/sabreawards1.jpg);
+    padding: 12px;
+    min-height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 40px;
+    box-shadow: inset 0 0 0 2000px rgba(255, 0, 0, 0.438);
+    color: #fff;
+  }
+
+  .about-footer-rights {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    color: #fff;
+    background-color: #2e2e2e;
+  }
+
+  .about-footer-rights img {
+    width: 5%;
+    height: 5%;
+  }
+
+  .about-footer-information {
+    padding-left: 3%;
+    line-height: 26px;
+  }
+
+  .about-footer-details {
+    padding-top: 1%;
+  }
+}
