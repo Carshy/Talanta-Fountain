@@ -1,5 +1,6 @@
 @import url("http://fonts.cdnfonts.com/css/cocogoose");
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -95,10 +96,12 @@
     height: 100%;
     padding: 1px 0 0 28px;
   }
-
-  .nav-menu li {
-    margin: 16px 0;
-    color: white;
+  .main-program-link a {
+    color: #fff;
+    text-decoration: none;
+    background: #ec5242;
+    padding: 4%;
+    font-size: 24px;
   }
 
   .nav-menu li {
@@ -208,14 +211,6 @@
     align-items: center;
   }
 
-  .main-program-link a {
-    color: #fff;
-    text-decoration: none;
-    background: #ec5242;
-    padding: 4%;
-    font-size: 24px;
-  }
-
   .main-program-link a:hover {
     color: #ec5242;
     text-decoration: none;
@@ -223,7 +218,6 @@
     padding: 2%;
     font-size: 26px;
     border: 2px solid #ec5242;
-    padding: 24px;
   }
 
   .featured-speakers-section {
@@ -235,7 +229,6 @@
   .speaker-proceedings {
     display: grid;
     grid-template-columns: 100%;
-    /* grid-column-gap: 4%; */
     grid-row-gap: 2%;
     margin-top: 40px;
     box-sizing: border-box;
@@ -321,7 +314,9 @@
 /* ****************************Desktop Version*************************************************** */
 
 @media screen and (min-width: 768px) {
+
   /* start of hidden displays */
+
   .hamburger {
     display: none;
   }
@@ -357,7 +352,7 @@
     list-style-type: none;
   }
 
-  #social-icons {
+  .upper-group li i {
     font-size: 14px;
     /* padding-top: 8%; */
   }

@@ -78,5 +78,5 @@ featuredSpeakers.forEach((speaker) => {
       </div>
   </div>
   `;
-  speakersContainer.appendChild(speakerDetails)
+  speakersContainer.appendChild(speakerDetails);
 });
