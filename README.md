@@ -1,10 +1,11 @@
 # Module1-Capstone-Project
-This is a personal portfolio website showcasing my experience as a developer. The features are replicated from figma. The project is continuous. Every milestone will require creating new features
+This is a Capstone Project for Module 1 website showcasing the Global Sabre Summit. Someof the features are replicated from Behance. The project is to showcase the mastery of what I have learned In Microverse's module 1.
 ## Built With
 * HTML
 * CSS
+* JavaScript
 * Git
-* Figma
+* Behance
 
 ## Live Demo 
 
@@ -15,7 +16,7 @@ This is a personal portfolio website showcasing my experience as a developer. Th
 To get a local copy up and running, follow these simple example steps.
 
 ## Prerequisites
-* HTML and CSS
+* HTML, CSS, and JS
 * Git and Github
 * Terminal/cmd
 * VSCode or any other preferable IDE
@@ -26,7 +27,7 @@ From the terminal, follow the following procedure:
 * Clone the repostory into your local machine
 use the command git clone
 * Navigate into the repostory with the command below
-cd personal portfolio
+cd module1 capstone project
 
 ## Authors
 
@@ -42,7 +43,6 @@ Give a ⭐️ if love this project
 * Microverse
 * Github
 * Learning Partners
-** Eric Tuyishimire
 * Stand-Up Team
 ## 📝License
 This project is [MIT](https://github.com/Carshy/readme-template/blob/master/MIT.md)
