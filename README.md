@@ -11,6 +11,8 @@ This is a Capstone Project for Module 1 website showcasing the Global Sabre Summ
 
 [Live Demo](https://carshy.github.io/Module1-Capstone-Project/)
 
+## Presentations
+[By Musoko Collins](https://www.loom.com/share/5f825eca31794c6ba5bf3033514690f0)
 ## Getting Started
 
 To get a local copy up and running, follow these simple example steps.
