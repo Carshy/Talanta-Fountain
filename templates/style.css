@@ -34,7 +34,7 @@
   /* end of hidden displays */
 
   #details-section {
-    background-image: url(../images/sabre-bg.png);
+    background-image: url(images/sabre-bg.png);
     padding-bottom: 11%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -162,7 +162,7 @@
 
   .program-section {
     background-color: #272a31;
-    background-image: url(../images/main-bg.png);
+    background-image: url(images/main-bg.png);
     color: #fff;
     padding: 14px;
   }
@@ -239,7 +239,7 @@
   }
 
   .speaker-bg-img {
-    background-image: url(../images/speakers-background.jpg);
+    background-image: url(images/speakers-background.jpg);
     background-size: 40% 40%;
     background-repeat: no-repeat;
     background-position-x: 0;
@@ -389,7 +389,7 @@
   }
 
   #details-section {
-    background-image: url(../images/sabre-bg.png);
+    background-image: url(images/sabre-bg.png);
     padding-bottom: 8%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -440,7 +440,7 @@
 
   .program-section {
     background-color: #272a31;
-    background-image: url(../images/main-bg.png);
+    background-image: url(images/main-bg.png);
     color: #fff;
     padding: 40px 0;
   }
@@ -533,7 +533,7 @@
   }
 
   .speaker-bg-img {
-    background-image: url(../images/speakers-background.jpg);
+    background-image: url(images/speakers-background.jpg);
     background-size: 40% 40%;
     background-repeat: no-repeat;
     background-position-x: 0;

@@ -19,42 +19,42 @@ navLink.forEach((n) => n.addEventListener('click', () => {
 
 const featuredSpeakers = [
   {
-    profilePhoto: '../images/oprah-photo.jpg',
+    profilePhoto: 'templates/images/oprah-photo.jpg',
     title: 'Oprah Winfrey',
     description: 'Oprah Winfrey is an American talk show host, and billionaire philanthropist.',
     bio: 'She is best known for being the host of her own, the Oprah Winfrey Show.',
   },
 
   {
-    profilePhoto: '../images/Les-Brown.jpg',
+    profilePhoto: 'templates/images/Les-Brown.jpg',
     title: 'Les Brown',
     description: 'Les Brown is an American politician, motivational speaker, and a member of the Ohio HR.',
     bio: 'He is best known for his motivational speaking and his political career.',
   },
 
   {
-    profilePhoto: '../images/deepak-chopra.jpg',
+    profilePhoto: 'templates/images/deepak-chopra.jpg',
     title: 'Deepak Chopra',
     description: 'Deepak Chopra is an Indian-American author and alternative medicine advocate',
     bio: 'His books and videos have made him one of the best-known figures in alternative medicine.',
   },
 
   {
-    profilePhoto: '../images/eric-thomas.jpg',
+    profilePhoto: 'templates/images/eric-thomas.jpg',
     title: 'Eric Thomas',
     description: 'Eric Thomas is the CEO of his consulting firm, and has worked with Fortune 500 companies',
     bio: 'He is a motivational speaker, author, and minister known for speaking engagements',
   },
 
   {
-    profilePhoto: '../images/Paula-white.jpg',
+    profilePhoto: 'templates/images/Paula-white.jpg',
     title: 'Paula White',
     description: 'Paula is an American televangelist and a proponent of prosperity theology.',
     bio: 'White is a chair of the evangelical advisory board',
   },
 
   {
-    profilePhoto: '../images/robin-sharma.png',
+    profilePhoto: 'templates/images/robin-sharma.png',
     title: 'Robin Sharma',
     description: 'Robin Sharma is a Canadian writer and is best know for his writing prowess',
     bio: 'He worked as a litigation lawyer until age 25, when he published MegaLiving',
