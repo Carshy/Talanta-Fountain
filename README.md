@@ -9,7 +9,7 @@ This is a Capstone Project for Module 1 website showcasing the Global Sabre Summ
 
 ## Live Demo 
 
-[Live Demo](absolute link)
+[Live Demo](https://carshy.github.io/Module1-Capstone-Project/)
 
 ## Getting Started
 
@@ -40,6 +40,7 @@ Feel free to check the [issues page](https://github.com/Carshy/Hello-microverse/
 ## Show Support
 Give a ⭐️ if love this project 
 # Acknowledgements
+* Collins Mussoko [Designer]
 * Microverse
 * Github
 * Learning Partners
