@@ -42,8 +42,9 @@ Feel free to check the [issues page](https://github.com/Carshy/Hello-microverse/
 ## Show Support
 Give a ⭐️ if love this project 
 # Acknowledgements
-* Collins Mussoko [Designer]
-* Microverse
+Special thanks to the following players who made it possible:
+* [Microverse](https://www.microverse.com)
+* Thanks to [Cindy Shin](https://www.behance.net/adagio07) who designed this template on Behance
 * Github
 * Learning Partners
 * Stand-Up Team
