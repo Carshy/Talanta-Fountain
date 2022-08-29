@@ -22,7 +22,7 @@ The present project is part of the Microverse curriculum Module 1 block 5 Capsto
 
 ## Live Demo 
 
-Live Application is found[Here](https://carshy.github.io/Module1-Capstone-Project/)
+Live Application is found [Here](https://carshy.github.io/Module1-Capstone-Project/)
 
 ## Presentations
 
