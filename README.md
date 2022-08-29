@@ -1,5 +1,4 @@
 # Module1-Capstone-Project
-This is a Capstone Project for Module 1 website showcasing the Global Sabre Summit. Someof the features are replicated from Behance. The project is to showcase the mastery of what I have learned In Microverse's module 1.
 
 "Mziki Tours App" is a web application that showcases music awards for best labels in a given year. A user can visit the website to identify which music label warn the award in a given year. Also, the app enlists the featured speakers for the program, therefore, making it easier for the user to relate with speeches from different speakers.
 
