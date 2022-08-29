@@ -1,54 +1,73 @@
 # Module1-Capstone-Project
 This is a Capstone Project for Module 1 website showcasing the Global Sabre Summit. Someof the features are replicated from Behance. The project is to showcase the mastery of what I have learned In Microverse's module 1.
+
+"Mziki Tours App" is a web application that showcases music awards for best labels in a given year. A user can visit the website to identify which music label warn the award in a given year. Also, the app enlists the featured speakers for the program, therefore, making it easier for the user to relate with speeches from different speakers.
+
+The present project is part of the Microverse curriculum Module 1 block 5 Capstone project. The main objective is putting hands on practice to build a web application using JavaScript, HTML/CSS, while using Behance design.
+
+![screenshot](templates/images/photo1.PNG)
+![screenshot](templates/images/photo3.PNG)
+![screenshot](templates/images/photo2.PNG)
+
 ## Built With
+* JavaScript
 * HTML
 * CSS
-* JavaScript
+
+## Additional Tools
+
 * Git
 * Behance
+* Stylelint
+* Eslint
 
 ## Live Demo 
 
-[Live Demo](https://carshy.github.io/Module1-Capstone-Project/)
+Live Application is found[Here](https://carshy.github.io/Module1-Capstone-Project/)
 
 ## Presentations
+
 [By Musoko Collins](https://www.loom.com/share/5f825eca31794c6ba5bf3033514690f0)
+
 ## Getting Started
 
-To get a local copy up and running, follow these simple example steps.
+To get a local copy of this project:
 
-## Prerequisites
-* HTML, CSS, and JS
-* Git and Github
-* Terminal/cmd
-* VSCode or any other preferable IDE
-* 
-
-## Setup
-From the terminal, follow the following procedure:
-* Clone the repostory into your local machine
-use the command git clone
-* Navigate into the repostory with the command below
-cd module1 capstone project
+Clone this repository or download the Zip folder:
+```
+https://github.com/Carshy/Module1-Capstone-Project.git
+```
+ 
+While in the project directory, you can run the live server
 
 ## Authors
 
 👤 **Collins Musoko**
-* Github: [@Carshy Collins](https://github.com/)
-* Linkedln: [@Collins Musoko](https://www.linkedin.com/feed/)
+
+- GitHub: [@Github](https://github.com/Carshy)
+- Twitter: [@Twitter](https://twitter.com/CarshyCollins)
+- Linkedin: [Linkedin](https://www.linkedin.com/in/collins-musoko-864881120/)
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
 ## 🤝 Contributing
+
 Contributions, issues, and feature requests are welcome!
-Feel free to check the [issues page](https://github.com/Carshy/Hello-microverse/issues)
-## Show Support
-Give a ⭐️ if love this project 
-# Acknowledgements
-Special thanks to the following players who made it possible:
-* [Microverse](https://www.microverse.com)
-* Thanks to [Cindy Shin](https://www.behance.net/adagio07) who designed this template on Behance
-* Github
-* Learning Partners
-* Stand-Up Team
-## 📝License
-This project is [MIT](https://github.com/Carshy/readme-template/blob/master/MIT.md)
-* GitHub: [Carshy](https://github.com/carshy)
-* LinkedIn: [Collins Musoko](https://linkedin.com/in/collins-musoko)
+Feel free to check the [issues page](https://github.com/Carshy/Module1-Capstone-Project/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- This project is part of week 1 of module 3 in the Microverse study program.
+- Thanks to the Microverse team for the great curriculum 🙌.
+- Thanks to Code Reviewers for the insightful feedback ⚡.
+- A great thanks to My coding partners, morning session team, and standup team Partners for their contributions 💘.
+
+## 📝 License
+
+This project is [MIT](https://github.com/Carshy/readme-template/blob/master/MIT.md) licensed.
