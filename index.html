@@ -4,161 +4,179 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Global Sabre Summit</title>
-    <link rel="stylesheet" href="templates/style.css">
+    <title>Nurture A Talent</title>
+    <link rel="stylesheet" href="./templates/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    
+    <!-- ICON SCOUT CDN -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!-- GOOGLE FONT MONSERRAT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-
-        <!-- Navigation for Desktop menu  -->
-        <div class="upper-layout">
-            <ul class="upper-group">
-                <li class="upper-items"><i class="fab fa-facebook-f"></i></li>
-                <li class="upper-items"><i class="fab fa-twitter"></i></li>
-                <li class="upper-items">English</li>
-                <li class="upper-items">My Page</li>
-                <li class="upper-items">Logout</li>
-            </ul>
-        </div>
-
-        <div class="nav-bar">
-            <a href="index.html"><img class="sabre-logo" src="templates/images/logo-web.png" alt="sabre-logo"></a>
-            <ul class="nav-group">
-                <li class="nav-items"><a id="nav-about" class="nav-links" href="about.html">About</a></li>
-                <li class="nav-items"><a class="nav-links" href="#">Program</a></li>
-                <li class="nav-items"><a class="nav-links" href="#">Join</a></li>
-                <li class="nav-items"><a class="nav-links" href="#">Sponsor</a></li>
-                <li class="nav-items"><a class="nav-links" href="#">News</a></li>
-                <li class="nav-items"><a id="nav-border" class="nav-links" href="#">Mziki Campaign</a></li>
-            </ul>
-        </div>
+  <!-- Navigation for Desktop menu  -->
+  <div class="container upper-layout">
+    <ul class="upper-group">
+      <li class="upper-items"><i class="fab fa-facebook-f"></i></li>
+      <li class="upper-items"><i class="fab fa-twitter"></i></li>
+      <li class="upper-items">English</li>
+      <li class="upper-items">My Page</li>
+      <li class="upper-items">Logout</li>
+    </ul>
+  </div>
         
+  <nav>
+    <div class="container nav__container">
+      <a href="index.html"><h4>Talent</h4></a>
+      <ul class="nav__menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#speakers-sec">Speakers</a></li>
+        <li><a href="contacts.html"><span>Contacts</span></a></li>
+      </ul>
+      
+      <button id="open-menu-btn"><img src="./templates/images/menu.svg" alt="menu"></button>
+      <button id="close-menu-btn"><img src="./templates/images/close.svg" alt="close"></button>
+      
+    </div>
+  </nav>
 
-        <!-- Navigation for Mobile menu -->
-        <div class="nav-mobile">
-            <ul class="nav-menu">
-                <li><a class="nav-link" id="menu-x" href="#">X</a></li>
-                <li><a class="nav-link" href="about.html">About</a></li>
-                <li><a class="nav-link" href="#about">Program</a></li>
-                <li><a class="nav-link" href="#contact">Join</a></li>
-                <li><a class="nav-link" href="#contact">Sponsor</a></li>
-                <li><a class="nav-link" href="#contact">News</a></li>
-                <li><a class="nav-link" href="#contact">Mziki Campaign</a></li>
-            </ul>
+  <header id="header__container">
+    <div class=" container header__container">
+      <h2 class="details-text-one">"Hello! Sharing Heroes"</h2>
+      <h1 class="details-heading">We Target Youth <br> Talents that no one sees.</h1>
+      <p class="details-paragraph">With <a href="about.html"><span>Talanta Fountain</span></a>, We Believe in you. You are braver than you think, more talented than you know, and capable of more than you imagine.</p>
+      <h3 class="details-date">AT YOUR OWN CONVENIENCE...</h3>
+      <h3 class="details-text-two">“The best way to find yourself is to lose yourself in the service of others." <br><br><b>- Mahatma Gandhi</b></h3>
+    </div>
+  </header> 
+
+  <!-- Main Program section -->
+  <section class="program-section">
+    <div class="program__header">
+        <h3>Main Program</h3>
+        <div></div>
+    </div>
+    <div class="program__container">
+
+      <article class="program__card">
+        <img src="templates/images/kenya.jpg" alt="presentations">
+        <h4 class="program-titles">Lecture</h4>
+        <p class="program-texts">Listen to all speakers from various regions and learn about trends
+            in new normal business in all over the world.</p>
+      </article>
+
+      <article class="program__card">
+        <img src="templates/images/tanzania.webp" alt="presentations">
+        <h4 class="program-titles">MT Exhibition</h4>
+        <p class="program-texts">The world biggest PR awards programme summit event, that dedicated to benchmarking the best PR work.</p>
+      </article>
+
+      <article class="program__card">
+        <img src="templates/images/nigeria.jpeg" alt="presentations">
+        <h4 class="program-titles">MT Forum</h4>
+        <p class="program-texts">The biggest PR conference of the year, a high-level forum designed to address the critical issues that matter most.</p>
+      </article>
+
+      <article class="program__card">
+        <img src="templates/images/uganda.jpeg" alt="presentations">
+        <h4 class="program-titles">MT workshop</h4>
+        <p class="program-texts">A global network of conferences that explore the innovation and disruption that is redefining public relations.</p>
+      </article>
+
+      <article class="program__card">
+        <img src="templates/images/sa.jpeg" alt="presentations">
+        <h4 class="program-titles">MT Ignite</h4>
+        <p class="program-texts">Unrivalled insight into the world's best PR agencies, across specialist and geographic categories to redefine.</p>
+      </article>
+
+    </div>
+    <div class="program__header">
+        <p><a href="contacts.html">Report a Talent</a></p>
+        <div class="main-line"></div>
+    </div>
+  </section>
+
+  <!-- Featured Speakers Section -->
+  <section id="speakers-sec" class="featured-speakers-section">
+    <div class="program__header">
+        <h3>Our Founders</h3>
+        <div class="main-line"></div>
+    </div>
+
+    <div class="speaker-proceedings"></div>
+  </section>
+
+  <section class="sponsors">
+    <div class="sponsors__header">
+      <h3>Our Popular Sponsors</h3>
+      <div class="main-line"></div>
+    </div>
+    <div class="sponsors__container">
+      <article class="article__card">
+        <div class="sponsor__image">
+          <img src="./templates/images/google.png" alt="google">
         </div>
+        <p class="description">
+            Google is one of our top sponsors that promote our agenda for youth talent.
+            We would not have achieved all these without their support.
+        </p>
+      </article>
 
-    </header>
+      <article class="article__card">
+        <div class="sponsor__image">
+          <img src="./templates/images/micro.png" alt="google">
+        </div>
+        <p class="description">
+            Google is one of our top sponsors that promote our agenda for youth talent.
+            We would not have achieved all these without their support.
+        </p>
+      </article>
 
-    <main>
+      <article class="article__card">
+        <div class="sponsor__image">
+          <img src="./templates/images/nike.png" alt="google">
+        </div>
+        <p class="description">
+            Google is one of our top sponsors that promote our agenda for youth talent.
+            We would not have achieved all these without their support.
+        </p>
+      </article>
+    </div>
+  </section>
 
-        <!-- Details section -->
-        <section id="details-section">
+  <footer class="footer">
+    <div class="container footer__container">
+      <div class="footer__category">
+        <a href="index.html"><h5>Talanta Fountain</h5></a>
+        <p>
+          While music fosters individual expression,
+          it also educates children about teamwork
+        </p>
+      </div>
 
-            <div class="hamburger">
-                <span class="bars"></span>
-                <span class="bars"></span>
-                <span class="bars"></span>
-            </div>
+      <div class="footer__category">
+        <a href="about.html"><h5>About Us</h5></a>
+        <p>
+          While music fosters individual expression,
+          it also educates children about teamwork
+        </p>
+      </div>
 
-            <div class="details-info">
-                <h1 class="details-text-one">"Hello! Sharing Heroes"</h1>
-                <h2 class="details-heading">Global Mziki Tours AWARDS WINNERS 2021</h2>
-                <p class="details-paragraph">The Mziki Tours Awards — which include competitions for the Africas, Americas, EMEA, Latin America and the Asia-Pacific region — attract more than 5,500 entries from more than 60 countries.</p>
-                <h3 class="details-date">2022.09.10 (SAT) ~ 13(MON)</h3>
-                <h3 class="details-text-two">@ Hampton Inn Manhattan-Times Square North</h3>
-            </div>
-        </section>
+      <div class="footer__category">
+        <a href="contact.html"><h5>Contact Us</h5></a>
+        <p>
+          +254 17 221 223
+          elitedevelopers@gmail.com
+        </p>
+      </div>
+    </div>
+  </footer>
 
-        <!-- Main Program section -->
-        <section class="program-section">
-            <div class="main-program-header">
-                <h3>Main Program</h3>
-                <div class="main-line"></div>
-            </div>
-            <div class="program-proceedings">
-
-                <div class="program-Presentation">
-                    <img src="templates/images/presentation.png" alt="presentations">
-                    <h4 class="program-titles">Lecture</h4>
-                    <p class="program-texts">Listen to all speakers from various regions and learn about trends
-                        in new normal business in all over the world.</p>
-                </div>
-
-                <div class="program-Presentation">
-                    <img src="templates/images/exibition.png" alt="presentations">
-                    <h4 class="program-titles">MT Exhibition</h4>
-                    <p class="program-texts">The world biggest PR awards programme summit event, that dedicated to benchmarking the best PR work.</p>
-                </div>
-
-                <div class="program-Presentation">
-                    <img src="templates/images/forum.png" alt="presentations">
-                    <h4 class="program-titles">MT Forum</h4>
-                    <p class="program-texts">The biggest PR conference of the year, a high-level forum designed to address the critical issues that matter most.</p>
-                </div>
-
-                <div class="program-Presentation">
-                    <img src="templates/images/workshop.png" alt="presentations">
-                    <h4 class="program-titles">MT workshop</h4>
-                    <p class="program-texts">A global network of conferences that explore the innovation and disruption that is redefining public relations.</p>
-                </div>
-
-                <div class="program-Presentation">
-                    <img src="templates/images/ignite.png" alt="presentations">
-                    <h4 class="program-titles">MT Ignite</h4>
-                    <p class="program-texts">Unrivalled insight into the world's best PR agencies, across specialist and geographic categories to redefine.</p>
-                </div>
-
-            </div>
-            <div class="main-program-link"><a href="#">Join MT Summit 2022</a></div>
-        </section>
-
-        <!-- Featured Speakers Section -->
-        <section class="featured-speakers-section">
-            <div class="main-program-header">
-                <h3>Featured Speakers</h3>
-                <div class="main-line"></div>
-            </div>
-
-            <div class="speaker-proceedings">
-
-                <!-- DOM Section for featured speakers -->
-
-            </div>
-            <button type="button" class="speaker-more-btn">More <i class="fas fa-angle-down"></i></button>
-        </section>
-    </main>
-
-    <!-- The Footer Section -->
-    <footer>
-        <section class="partners-section">
-            <div class="partners-list">
-                <div class="partner-program-header">
-                    <h3>Our Partners</h3>
-                    <div class="main-line"></div>
-                </div>
-
-                <ul class="list-group-partners">
-                    <li class="list-item-partners2">Facebook</li>
-                    <li class="list-item-partners1">Amazon</li>
-                    <li class="list-item-partners2">YOKOHAMA</li>
-                    <li class="list-item-partners1">USAID</li>
-                    <li class="list-item-partners1">Samsung</li>
-                </ul>
-                
-            </div>
-
-            <div class="footer-rights">
-                <img src="templates/images/logo-web.png" alt="Footer Logo">
-                <div class="footer-infromation">
-                    <p class="footer-description">All rights reserved © 2022 Global Mziki Tours Awards</p>
-                    <p class="footer-details">Mziki Tours © 2022 The Holmes Report LLC, 271 West 47th Street, Suite 25-A, New York, NY 10036.<br>
-                        Credit: Web design and development by @Collins Musoko</p>
-                </div>
-            </div>
-        </section>
-    </footer>
-    <script src="templates/main.js"></script>
+  <script src="templates/main.js"></script>
 </body>
 </html>
