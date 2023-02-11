@@ -4,7 +4,7 @@
 
 The present project is part of the Microverse curriculum Module 1 block 5 Capstone project. The main objective is putting hands on practice to build a web application using JavaScript, HTML/CSS, while using Behance design.
 
-![screenshot](templates/images/screenshot)
+![screenshot](templates/images/screenshot.png)
 ![screenshot](templates/images/photo3.PNG)
 ![screenshot](templates/images/photo2.PNG)
 
