@@ -155,8 +155,10 @@ section {
   color: #666;
 }
 
-.input__box input:focus ~ span,
-.input__box input:valid ~ span,
+.input__box input[type="text"]:focus ~ span,
+.input__box input[type="text"]:valid ~ span,
+.input__box input[type="email"]:focus ~ span,
+.input__box input[type="email"]:valid ~ span,
 .input__box textarea:focus ~ span,
 .input__box textarea:valid ~ span 
 {
