@@ -4,9 +4,7 @@
 
 The present project is part of the Microverse curriculum Module 1 block 5 Capstone project. The main objective is putting hands on practice to build a web application using JavaScript, HTML/CSS, while using Behance design.
 
-![screenshot](templates/images/photo1.PNG)
-![screenshot](templates/images/photo3.PNG)
-![screenshot](templates/images/photo2.PNG)
+![screenshot](templates/images/screenshot.png)
 
 ## Built With
 * JavaScript
@@ -23,10 +21,6 @@ The present project is part of the Microverse curriculum Module 1 block 5 Capsto
 ## Live Demo 
 
 Live Application is found [Here](https://talanta-fountain.netlify.app/)
-
-## Presentations
-
-[By Musoko Collins](https://www.loom.com/share/5f825eca31794c6ba5bf3033514690f0)
 
 ## Getting Started
 
