@@ -22,10 +22,6 @@ The present project is part of the Microverse curriculum Module 1 block 5 Capsto
 
 Live Application is found [Here](https://talanta-fountain.netlify.app/)
 
-## Presentations
-
-[By Musoko Collins](https://www.loom.com/share/5f825eca31794c6ba5bf3033514690f0)
-
 ## Getting Started
 
 To get a local copy of this project:
