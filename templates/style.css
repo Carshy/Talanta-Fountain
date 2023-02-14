@@ -145,6 +145,10 @@ nav {
   display: none;
 }
 
+.app__logo {
+  width: 14rem;
+}
+
 .nav__menu {
   display: flex;
   justify-content: space-around;
@@ -529,6 +533,10 @@ span {
 
   #close-menu-btn {
     display: none;
+  }
+
+  .app__logo {
+    width: 12rem;
   }
 
   .nav__menu {
